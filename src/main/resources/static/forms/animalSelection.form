@@ -39,7 +39,7 @@
         "columns": null
       },
       "id": "Field_00v33ld",
-      "key": "select_from_dropdown",
+      "key": "userSelect",
       "description": "Image will generated for type selected, or select \"NA\" ",
       "defaultValue": "NA"
     }
