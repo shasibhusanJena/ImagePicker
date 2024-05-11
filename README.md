@@ -17,3 +17,5 @@
    10. Containerize your application.
    11. Add a setup to make the app run locally on every machine.
    12. Add README provide with all documentation. 
+   13. Add docker file.
+   14. End
