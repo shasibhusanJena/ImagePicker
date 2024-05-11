@@ -1,7 +1,4 @@
-![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/60aff1e9-851e-417e-8d65-4744fa53dcd4)
-
-
-
+   ![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/60aff1e9-851e-417e-8d65-4744fa53dcd4)
 
 
 # Image Selection using Camunda + Spring Boot application.
@@ -25,3 +22,5 @@
    12. Add README provide with all documentation. 
    13. Add docker file.
    14. End
+
+![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/3a8f8030-aacc-44a7-a91a-07d74a5ba7e9)
