@@ -1,0 +1,56 @@
+{
+  "components": [
+    {
+      "label": "Please provide your Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0fgs88a",
+        "columns": null
+      },
+      "id": "Field_09882iz",
+      "key": "userName",
+      "validate": {
+        "required": false
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "NA",
+          "value": "NA"
+        },
+        {
+          "label": "Dog",
+          "value": "Dog"
+        },
+        {
+          "label": "Cat",
+          "value": "Cat"
+        },
+        {
+          "label": "Bear",
+          "value": "Bear"
+        }
+      ],
+      "label": "Select an animal of your choice.",
+      "type": "select",
+      "layout": {
+        "row": "Row_0b3ipnm",
+        "columns": null
+      },
+      "id": "Field_00v33ld",
+      "key": "select_from_dropdown",
+      "description": "Image will generated for type selected, or select \"NA\" ",
+      "defaultValue": "NA"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0yeesyr",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}

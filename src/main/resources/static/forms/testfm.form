@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "label": "Number1",
+      "type": "number",
+      "layout": {
+        "row": "Row_1uzoge4",
+        "columns": null
+      },
+      "id": "Field_1px206c",
+      "key": "number_vyy1cg"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0yeesyp",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.22.0"
+  },
+  "schemaVersion": 16
+}
