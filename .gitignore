@@ -14,3 +14,4 @@ target/surefire-reports/com.example.workflow.WorkflowTest.txt
 target/surefire-reports/TEST-com.example.workflow.WorkflowTest.xml
 target/classes/static/forms/animalSelection.form
 target/classes/static/forms/testfm.form
+target
