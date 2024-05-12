@@ -16,20 +16,20 @@
     {
       "values": [
         {
-          "label": "NA",
-          "value": "NA"
+          "label": "Cat",
+          "value": "Cat"
         },
         {
           "label": "Dog",
           "value": "Dog"
         },
         {
-          "label": "Cat",
-          "value": "Cat"
-        },
-        {
           "label": "Bear",
           "value": "Bear"
+        },
+        {
+          "label": "NA",
+          "value": "NA"
         }
       ],
       "label": "Select an animal of your choice.",
@@ -41,7 +41,11 @@
       "id": "Field_00v33ld",
       "key": "userSelect",
       "description": "Image will generated for type selected, or select \"NA\" ",
-      "defaultValue": "NA"
+      "defaultValue": "Cat",
+      "validate": {
+        "required": false
+      },
+      "properties": {}
     }
   ],
   "type": "default",
