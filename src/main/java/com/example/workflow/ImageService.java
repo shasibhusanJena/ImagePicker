@@ -1,17 +1,22 @@
 package com.example.workflow;
 
+import jakarta.inject.Named;
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;
+import org.springframework.stereotype.Component;
 
-
+@Component
 public class ImageService implements JavaDelegate {
     @Override
     public void execute(DelegateExecution delegateExecution) throws Exception {
 
     String userName = (String) delegateExecution.getVariable("userName");
-    String userChoiceType = (String) delegateExecution.getVariable("userChoiceType");
+    String userSelect = (String) delegateExecution.getVariable("userSelect");
 
-    System.out.println("userName "+userName+" userChoiceType"+userChoiceType);
 
+    if(!userSelect.isEmpty() && userSelect != null){
+        System.out.println("Hi "+userName+" your selected type is :- "+userSelect);
+        System.out.println("API call started");
+    }
     }
 }
