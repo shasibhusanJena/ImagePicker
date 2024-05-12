@@ -13,10 +13,8 @@ public class ImageService implements JavaDelegate {
     String userName = (String) delegateExecution.getVariable("userName");
     String userSelect = (String) delegateExecution.getVariable("userSelect");
 
-
-    if(!userSelect.isEmpty() && userSelect != null){
-        System.out.println("Hi "+userName+" your selected type is :- "+userSelect);
-        System.out.println("API call started");
+    if(!userSelect.isEmpty() && !userSelect.isBlank()){
+        System.out.println("Hi "+userName+" your selected type is :- "+userSelect+" AND API call started");
     }
     }
 }

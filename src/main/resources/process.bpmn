@@ -39,17 +39,17 @@
     <bpmn:sequenceFlow id="Flow_1knmq0b" sourceRef="Activity_1a7netj" targetRef="EndEvent_0x6ir2l" />
     <bpmn:sequenceFlow id="Flow_0vhvk4f" sourceRef="Activity_022tvoe" targetRef="EndEvent_0x6ir2l" />
     <bpmn:sequenceFlow id="Flow_1sev4x9" sourceRef="Activity_1kgscif" targetRef="EndEvent_0x6ir2l" />
-    <bpmn:userTask id="Activity_022tvoe" name="API : Cat called">
-      <bpmn:incoming>Flow_0q8di4h</bpmn:incoming>
-      <bpmn:outgoing>Flow_0vhvk4f</bpmn:outgoing>
-    </bpmn:userTask>
-    <bpmn:userTask id="Activity_1kgscif" name="API : Bear called">
-      <bpmn:incoming>Flow_08oyisl</bpmn:incoming>
-      <bpmn:outgoing>Flow_1sev4x9</bpmn:outgoing>
-    </bpmn:userTask>
     <bpmn:serviceTask id="Activity_1a7netj" name="API : Dog called" camunda:delegateExpression="${imageService}">
       <bpmn:incoming>Flow_0bzt7vr</bpmn:incoming>
       <bpmn:outgoing>Flow_1knmq0b</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_022tvoe" name="API : Cat called" camunda:delegateExpression="${imageService}">
+      <bpmn:incoming>Flow_0q8di4h</bpmn:incoming>
+      <bpmn:outgoing>Flow_0vhvk4f</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="Activity_1kgscif" name="API : Bear called" camunda:delegateExpression="${imageService}">
+      <bpmn:incoming>Flow_08oyisl</bpmn:incoming>
+      <bpmn:outgoing>Flow_1sev4x9</bpmn:outgoing>
     </bpmn:serviceTask>
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
@@ -60,7 +60,7 @@
           <dc:Bounds x="185" y="142" width="25" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="UserTask_08mft2c_di" bpmnElement="say-hello" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
+      <bpmndi:BPMNShape id="UserTask_08mft2c_di" bpmnElement="say-hello" bioc:stroke="#0d4372" bioc:fill="#bbdefb" color:background-color="#bbdefb" color:border-color="#0d4372">
         <dc:Bounds x="270" y="77" width="100" height="80" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
@@ -76,14 +76,14 @@
           <dc:Bounds x="830" y="142" width="20" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0xrybkt_di" bpmnElement="Activity_022tvoe" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
-        <dc:Bounds x="610" y="270" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0ahpad1_di" bpmnElement="Activity_1kgscif" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
-        <dc:Bounds x="610" y="370" width="100" height="80" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0rdgl1t_di" bpmnElement="Activity_1a7netj" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
         <dc:Bounds x="610" y="170" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_07zevpf_di" bpmnElement="Activity_022tvoe" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
+        <dc:Bounds x="610" y="270" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1vu063z_di" bpmnElement="Activity_1kgscif" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
+        <dc:Bounds x="610" y="370" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="SequenceFlow_1fp17al_di" bpmnElement="SequenceFlow_1fp17al">
         <di:waypoint x="215" y="117" />
