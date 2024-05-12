@@ -15,6 +15,9 @@ public class ImageService implements JavaDelegate {
 
     if(!userSelect.isEmpty() && !userSelect.isBlank()){
         System.out.println("Hi "+userName+" your selected type is :- "+userSelect+" AND API call started");
+
+
+
     }
     }
 }
