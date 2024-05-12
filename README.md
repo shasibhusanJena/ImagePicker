@@ -23,4 +23,4 @@
    13. Add docker file.
    14. End
 
-![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/3a8f8030-aacc-44a7-a91a-07d74a5ba7e9)
+![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/59c278f3-a964-40e3-be45-c43b8d8773b6)
