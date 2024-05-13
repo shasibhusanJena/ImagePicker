@@ -17,11 +17,11 @@
       1. Fetches the picture from an API. | Completed
       2. Stores the picture in a DB of your choice. | Completed (Storing on local file system)
    9. Add Automated testcase.
-   10. Containerize your application.
+   10. Containerize your application. | Completed
    11. Add a setup to make the app run locally on every machine.
-   12. Add README provide with all documentation. 
-   13. Add docker file.
-   14. Add and build build our project into Kubernetes cluster.
+   12. Add README provide with all documentation. | Completed 
+   13. Add docker file. | Completed
+   14. Add and build our project into Kubernetes cluster. | Completed
    14. End
 
 **Data Flow Diagram**
