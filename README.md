@@ -53,6 +53,9 @@ Default Credential : username: demo, password : demo
 [INFO] Finished at: 2024-05-13T00:02:04+05:30
 [INFO] ------------------------------------------------------------------------
 
+Docker Image named "imagepicker" uploaded on Docker App 
+
+![img_3.png](img_3.png)
 
 #### **Deploy application on Kubernate**
 similarly install minikube on windows and once installtion is complete, we want docker to be executed inside minicube.
