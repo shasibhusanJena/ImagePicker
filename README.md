@@ -6,16 +6,16 @@
 ## Project Description
 1. Create a application that will help to select a type of animal from dropdown and after selection store the image into the database.
 2. steps involved (to do list ):
-   1. Download and Install Java and Intellij IDE.
-   2. Get the Spring initializer project. 
-   3. H2 or Mysql Database Setup. 
-   4. create a Model class. 
-   5. create a repository. 
-   6. create a service class. 
-   7. create a controller class. 
+   1. Download and Install Java and Intellij IDE. | Completed
+   2. Get the Spring initializer project. | Completed 
+   3. H2 or Mysql Database Setup. | Completed 
+   4. create a Model class. | Not required 
+   5. create a repository. | Completed 
+   6. create a service class. | Completed 
+   7. create a controller class. | Completed 
    8. create required CRUD operation methods. 
-      1. Fetches the picture from an API.
-      2. Stores the picture in a DB of your choice.
+      1. Fetches the picture from an API. | Completed
+      2. Stores the picture in a DB of your choice. | Completed (Storing on local file system)
    9. Add Automated testcase.
    10. Containerize your application.
    11. Add a setup to make the app run locally on every machine.
@@ -70,3 +70,8 @@ similarly install minikube on windows and once installtion is complete, we want 
 - ![img_1.png](img_1.png)
 - Describe more on the project
 - ![img_2.png](img_2.png)
+
+### **Project File structure**
+![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/e66fd048-302d-47ff-8de7-833b94615306)
+
+
