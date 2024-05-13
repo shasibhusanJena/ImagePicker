@@ -32,6 +32,9 @@
 
 ![img.png](img.png)
 
+**Added View Image**
+![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/540269ab-3338-4653-a23e-1b78b185d1de)
+
 **Application login**
 
 Default Credential : username: demo, password : demo
