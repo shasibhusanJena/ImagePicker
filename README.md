@@ -16,13 +16,14 @@
    8. create required CRUD operation methods. 
       1. Fetches the picture from an API. | Completed
       2. Stores the picture in a DB of your choice. | Completed (Storing on local file system)
+      3. Fetch and show image back in HTML using tagging.
    9. Add Automated testcase.
    10. Containerize your application. | Completed
    11. Add a setup to make the app run locally on every machine.
    12. Add README provide with all documentation. | Completed 
    13. Add docker file. | Completed
-   14. Add and build our project into Kubernetes cluster. | Completed
-   14. End
+   14. Add and build our project into Kubernetes cluster.
+   15. End
 
 **Data Flow Diagram**
 
@@ -68,10 +69,10 @@ similarly install minikube on windows and once installtion is complete, we want 
 
 
 - ![img_1.png](img_1.png)
-- Describe more on the project
+  - And 
 - ![img_2.png](img_2.png)
 
-### **Project File structure**
+- Structure of files and resource file structure in the real project
 ![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/e66fd048-302d-47ff-8de7-833b94615306)
 
 
