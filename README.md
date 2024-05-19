@@ -69,7 +69,8 @@ similarly install minikube on windows and once installtion is complete, we want 
 - kubectl create deployment imagepicker-deployment --image=imagepicker:1.0 --port=8080
 - kubectl get deployment
 - ![img_1.png](img_1.png)
-- Describe more on the project
+  
+- Structure of files and resource file structure in the real project 
 - ![img_2.png](img_2.png)
 
 ### **Project File structure**
