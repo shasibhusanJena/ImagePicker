@@ -73,6 +73,7 @@ similarly install minikube on windows and once installtion is complete, we want 
 - ![img_2.png](img_2.png)
 
 - Structure of files and resource file structure in the real project
-![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/e66fd048-302d-47ff-8de7-833b94615306)
+  
+- ![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/e66fd048-302d-47ff-8de7-833b94615306)
 
 
