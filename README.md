@@ -20,7 +20,7 @@
    9. Add Automated testcase.
    10. Containerize your application. | Completed
    11. Add a setup to make the app run locally on every machine.
-   12. Add README provide with all documentation.  | Completed
+   12. Add README provide with all documentation. | Completed 
    13. Add docker file. | Completed
    14. Add and build our project into Kubernetes cluster.
    15. End
@@ -33,6 +33,9 @@
 
 ![img.png](img.png)
 
+**Added View Image**
+![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/540269ab-3338-4653-a23e-1b78b185d1de)
+
 **Application login**
 
 Default Credential : username: demo, password : demo
@@ -43,16 +46,6 @@ Default Credential : username: demo, password : demo
 - once installation is complete then setting --> Kubernates --> Enable Kubernate checkbox --> Apply and restart
 **Docker Run command** 
    - docker build -t imagepicker:1.0 .
-
-**Logs**:
-
-[INFO] Installing E:\Camunda_workspace\projects\ImagePicker\pom.xml to C:\Users\shasi\.m2\repository\com\example\workflow\ImagePicker\1.0.0-SNAPSHOT\ImagePicker-1.0.0-SNAPSHOT.pom
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  33.013 s
-[INFO] Finished at: 2024-05-13T00:02:04+05:30
-[INFO] ------------------------------------------------------------------------
 
 Docker Image named "imagepicker" uploaded on Docker App 
 
@@ -66,8 +59,15 @@ similarly install minikube on windows and once installtion is complete, we want 
 - minikube start --driver=docker
   Next create Kubernetes service object and deployment object so that we can access it from outer world.
   here we are providing the deployment obj name and the port NO
-- kubectl create deployment imagepicker-deployment --image=imagepicker:1.0 --port=8080
+- kubectl create deployment imagepicker-deployment4 --image=imagepicker:4.0 --port=8080
 - kubectl get deployment
+==================== =================================== ==========================
+
+- Delete a deployment in Kubernetes
+- kubectl delete deployment imagepicker-deployment4
+- kubectl delete deployment --all --all-namespaces=true
+
+
 - ![img_1.png](img_1.png)
   - And 
 - ![img_2.png](img_2.png)

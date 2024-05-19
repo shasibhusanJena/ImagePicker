@@ -32,7 +32,7 @@
           "value": "NA"
         }
       ],
-      "label": "Select an animal of your choice.",
+      "label": "Select an animal of your choice. from Drop down",
       "type": "select",
       "layout": {
         "row": "Row_0b3ipnm",
