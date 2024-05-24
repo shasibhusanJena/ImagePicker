@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Main-Class:
+Class-Path: camunda-engine-dmn-7.21.0.jar spring-boot-starter-jersey-3.2
+ .2.jar hk2-api-3.0.5.jar jaxb-core-4.0.4.jar json-path-2.8.0.jar camund
+ a-commons-logging-1.13.0.jar xmlunit-core-2.9.1.jar spring-web-6.1.3.ja
+ r spring-bridge-3.0.5.jar jackson-jakarta-rs-base-2.15.3.jar mockito-ju
+ nit-jupiter-5.7.0.jar spring-test-6.1.3.jar asm-util-9.6.jar spring-orm
+ -6.1.3.jar spring-boot-autoconfigure-3.2.2.jar jersey-container-servlet
+ -3.1.5.jar spring-tx-6.1.3.jar mockito-core-5.7.0.jar snakeyaml-2.2.jar
+  spring-webmvc-6.1.3.jar jboss-logging-3.5.3.Final.jar tomcat-embed-web
+ socket-10.1.18.jar h2-2.2.224.jar jersey-client-3.1.5.jar tomcat-embed-
+ el-10.1.18.jar jackson-core-2.15.3.jar class-model-3.0.5.jar camunda-we
+ bapp-jakarta-7.21.0-classes.jar jaxb-impl-4.0.4.jar camunda-bpm-spring-
+ boot-starter-rest-7.21.0.jar spring-core-6.1.3.jar camunda-juel-7.21.0.
+ jar spring-context-6.1.3.jar hibernate-validator-8.0.1.Final.jar camund
+ a-spin-dataformat-all-1.23.0.jar osgi-resource-locator-1.0.3.jar camund
+ a-engine-7.21.0.jar angus-activation-2.0.1.jar jackson-annotations-2.15
+ .3.jar awaitility-4.2.0.jar spring-boot-starter-3.2.2.jar spring-boot-3
+ .2.2.jar spring-boot-starter-test-3.2.2.jar junit-jupiter-api-5.10.1.ja
+ r jakarta.inject-api-2.0.1.jar hk2-utils-3.0.5.jar spring-boot-starter-
+ web-3.2.2.jar camunda-spin-core-1.23.0.jar junit-jupiter-engine-5.10.1.
+ jar commons-io-2.8.0.jar camunda-engine-spring-6-7.21.0.jar assertj-cor
+ e-3.24.2.jar asm-analysis-9.6.jar jersey-container-servlet-core-3.1.5.j
+ ar jersey-common-3.1.5.jar camunda-connect-core-1.6.0.jar jakarta.ws.rs
+ -api-3.1.0.jar camunda-engine-feel-juel-7.21.0.jar junit-jupiter-params
+ -5.10.1.jar jersey-entity-filtering-3.1.5.jar java-uuid-generator-4.3.0
+ .jar spring-boot-starter-jdbc-3.2.2.jar classmate-1.6.0.jar hk2-locator
+ -3.0.5.jar spring-expression-6.1.3.jar commons-fileupload-1.5.jar sprin
+ g-boot-test-3.2.2.jar byte-buddy-1.14.11.jar jakarta.activation-api-2.1
+ .2.jar mybatis-3.5.15.jar jackson-databind-2.15.3.jar jersey-server-3.1
+ .5.jar asm-tree-9.6.jar junit-platform-engine-1.10.1.jar camunda-engine
+ -rest-core-jakarta-7.21.0.jar jersey-spring6-3.1.5.jar jackson-datatype
+ -jdk8-2.15.3.jar spring-boot-starter-json-3.2.2.jar camunda-dmn-model-7
+ .21.0.jar spring-boot-test-autoconfigure-3.2.2.jar joda-time-2.12.5.jar
+  HikariCP-5.0.1.jar android-json-0.0.20131108.vaadin1.jar camunda-bpmn-
+ model-7.21.0.jar accessors-smart-2.5.0.jar commons-lang3-3.13.0.jar hk2
+ -core-3.0.5.jar camunda-bpm-spring-boot-starter-webapp-7.21.0.jar camun
+ da-webapp-webjar-7.21.0.jar objenesis-3.3.jar jackson-jakarta-rs-json-p
+ rovider-2.15.3.jar feel-engine-1.17.5-scala-shaded.jar jakarta.annotati
+ on-api-2.1.1.jar camunda-cmmn-model-7.21.0.jar junit-vintage-engine-5.1
+ 0.1.jar camunda-commons-utils-1.13.0.jar log4j-to-slf4j-2.21.1.jar camu
+ nda-engine-feel-api-7.21.0.jar jackson-module-parameter-names-2.15.3.ja
+ r hk2-3.0.5.jar spring-jcl-6.1.3.jar jersey-media-json-jackson-3.1.5.ja
+ r jackson-module-jakarta-xmlbind-annotations-2.15.3.jar camunda-xml-mod
+ el-7.21.0.jar slf4j-api-2.0.11.jar jakarta.validation-api-3.0.2.jar jac
+ kson-datatype-jsr310-2.15.3.jar jersey-hk2-3.1.5.jar hk2-runlevel-3.0.5
+ .jar camunda-bpm-spring-boot-starter-webapp-core-7.21.0.jar jersey-bean
+ -validation-3.1.5.jar junit-platform-commons-1.10.1.jar opentest4j-1.3.
+ 0.jar asm-9.3.jar logback-classic-1.4.14.jar camunda-bpm-assert-7.21.0.
+ jar spring-jdbc-6.1.3.jar camunda-engine-plugin-spin-7.21.0.jar byte-bu
+ ddy-agent-1.14.11.jar spring-boot-starter-tomcat-3.2.2.jar log4j-api-2.
+ 21.1.jar camunda-bpm-spring-boot-starter-test-7.21.0.jar junit-4.13.2.j
+ ar jul-to-slf4j-2.0.11.jar json-smart-2.5.0.jar spring-beans-6.1.3.jar 
+ tomcat-embed-core-10.1.18.jar javassist-3.29.2-GA.jar micrometer-observ
+ ation-1.12.2.jar junit-jupiter-5.10.1.jar camunda-connect-connectors-al
+ l-1.6.0.jar asm-commons-9.6.jar jsonassert-1.5.1.jar camunda-engine-fee
+ l-scala-7.21.0.jar camunda-commons-typed-values-7.21.0.jar spring-boot-
+ starter-logging-3.2.2.jar aopalliance-repackaged-3.0.5.jar spring-boot-
+ starter-validation-3.2.2.jar hamcrest-2.2.jar jakarta.xml.bind-api-4.0.
+ 1.jar logback-core-1.4.14.jar apiguardian-api-1.1.2.jar spring-aop-6.1.
+ 3.jar camunda-bpm-spring-boot-starter-7.21.0.jar micrometer-commons-1.1
+ 2.2.jar
+

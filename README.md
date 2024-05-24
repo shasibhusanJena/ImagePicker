@@ -87,6 +87,11 @@ Describe Deployment details
 
     kubectl describe deployment imagepicker-deployment1
 
+Step to create Docker steps are 
+
+      docker build -t imagepicker:3.0 .
+      docker-compose up
+
 
 ================================================================================================
 
@@ -96,8 +101,6 @@ Describe Deployment details
 =============================================================================================
 
 - ![img_1.png](img_1.png)
-
-
 
 - Structure of files and resource file structure in the real project
 ![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/e66fd048-302d-47ff-8de7-833b94615306)
