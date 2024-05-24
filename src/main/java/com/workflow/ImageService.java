@@ -1,6 +1,5 @@
-package com.example.workflow;
+package com.workflow;
 
-import jakarta.inject.Named;
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;
 import org.springframework.stereotype.Component;

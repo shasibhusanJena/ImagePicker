@@ -11,7 +11,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
-    <start-class>com.example.workflow.Application</start-class>
+    <start-class>com.workflow.Application</start-class>
   </properties>
 
   <dependencyManagement>
@@ -80,7 +80,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
-          <mainClass>com.example.workflow.Application</mainClass>
+          <mainClass>com.workflow.Application</mainClass>
         </configuration>
       </plugin>
     </plugins>

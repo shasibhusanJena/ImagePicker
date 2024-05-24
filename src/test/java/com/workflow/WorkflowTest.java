@@ -1,4 +1,4 @@
-package com.example.workflow;
+package com.workflow;
 
 import org.camunda.bpm.engine.RuntimeService;
 import org.camunda.bpm.engine.runtime.ProcessInstance;

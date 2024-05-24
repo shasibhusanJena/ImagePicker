@@ -1,4 +1,4 @@
-package com.example.workflow;
+package com.workflow;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
