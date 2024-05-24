@@ -64,37 +64,37 @@ Add minikube.exe binary to your PATH
     [Environment]::SetEnvironmentVariable('Path', $('{0};C:\minikube' -f $oldPath), [EnvironmentVariableTarget]::Machine)
     }
 
-- **minikube start** :- To start minikube
-- **minikube dashboard** To check deployment details
+**minikube start** :- To start minikube
 
+**minikube dashboard** To check deployment details
 
     http://127.0.0.1:61873/api/v1/namespaces/kubernetes-dashboard/services/
 
-
-- Below command is to run the docker image inside Kubernetes. (power shell)
-
-    
+Below command is to run the docker image inside Kubernetes. (power shell)
+ 
     minikube start --driver=docker
   
-- Next create Kubernetes service object and deployment object so that we can access it from outer world.
-  here we are providing the deployment obj name and the port NO 
-    
-    
-    kubectl create deployment imagepicker-deployment4 --image=imagepicker:4.0 --port=8080
-- Check all deployments running
+Next create Kubernetes service object and deployment with port no 
+     
+    kubectl create deployment imagepicker-deployment1 --image=imagepicker:1.0 --port=8080
+Check all deployments running
 
-  
     kubectl get deployment
+Describe Deployment details
 
-======================================================= ==========================
+    kubectl describe deployment imagepicker-deployment1
+
+
+================================================================================================
 
 - Delete a deployment in Kubernetes
 - kubectl delete deployment imagepicker-deployment4
 - kubectl delete deployment --all --all-namespaces=true
+=============================================================================================
 
 - ![img_1.png](img_1.png)
-  - Describe deployment details  
-- ![img_2.png](img_2.png)
+
+
 
 - Structure of files and resource file structure in the real project
 ![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/e66fd048-302d-47ff-8de7-833b94615306)
