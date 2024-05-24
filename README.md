@@ -52,24 +52,48 @@ Docker Image named "imagepicker" uploaded on Docker App
 ![img_3.png](img_3.png)
 
 #### **Deploy application on Kubernate**
-similarly install minikube on windows and once installtion is complete, we want docker to be executed inside minicube.
-- minikube
-- Kubectl
-  below command is to run the docker image inside Kubernetes.
-- minikube start --driver=docker
-  Next create Kubernetes service object and deployment object so that we can access it from outer world.
-  here we are providing the deployment obj name and the port NO
-- kubectl create deployment imagepicker-deployment4 --image=imagepicker:4.0 --port=8080
-- kubectl get deployment
-==================== =================================== ==========================
+similarly **install minikube on windows** and once installation is complete, we want docker to be executed inside minicube.
+
+    New-Item -Path 'c:\' -Name 'minikube' -ItemType Directory -Force
+    Invoke-WebRequest -OutFile 'c:\minikube\minikube.exe' -Uri 'https://github.com/kubernetes/minikube/releases/latest/download/minikube-windows-amd64.exe' -UseBasicParsing
+
+Add minikube.exe binary to your PATH
+
+    $oldPath = [Environment]::GetEnvironmentVariable('Path', [EnvironmentVariableTarget]::Machine)
+    if ($oldPath.Split(';') -inotcontains 'C:\minikube'){
+    [Environment]::SetEnvironmentVariable('Path', $('{0};C:\minikube' -f $oldPath), [EnvironmentVariableTarget]::Machine)
+    }
+
+- **minikube start** :- To start minikube
+- **minikube dashboard** To check deployment details
+
+
+    http://127.0.0.1:61873/api/v1/namespaces/kubernetes-dashboard/services/
+
+
+- Below command is to run the docker image inside Kubernetes. (power shell)
+
+    
+    minikube start --driver=docker
+  
+- Next create Kubernetes service object and deployment object so that we can access it from outer world.
+  here we are providing the deployment obj name and the port NO 
+    
+    
+    kubectl create deployment imagepicker-deployment4 --image=imagepicker:4.0 --port=8080
+- Check all deployments running
+
+  
+    kubectl get deployment
+
+======================================================= ==========================
 
 - Delete a deployment in Kubernetes
 - kubectl delete deployment imagepicker-deployment4
 - kubectl delete deployment --all --all-namespaces=true
 
-
 - ![img_1.png](img_1.png)
-  - And 
+  - Describe deployment details  
 - ![img_2.png](img_2.png)
 
 - Structure of files and resource file structure in the real project

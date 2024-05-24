@@ -1,3 +1,5 @@
 
 .idea
 target
+.idea/misc.xml
+manifest.mf
