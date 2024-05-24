@@ -17,7 +17,7 @@ public class ImageService implements JavaDelegate {
 
     String userName = (String) delegateExecution.getVariable("userName");
     String userSelect = (String) delegateExecution.getVariable("userSelect");
-
+    String responseImagePath="";
     if(!userSelect.isEmpty() && !userSelect.isBlank()){
         System.out.println("Hi "+userName+" your selected type is :- "+userSelect+" AND API call started");
         String URL = "";
@@ -33,13 +33,16 @@ public class ImageService implements JavaDelegate {
         else{
             URL = "NA";
         }
-        new ImageService().downloadAndVerifyFile(URL,userSelect);
+        responseImagePath = new ImageService().downloadAndVerifyFile(URL,userSelect);
     }
+        System.out.println("image path is :- "+responseImagePath);
+        delegateExecution.setVariable("imagePath",responseImagePath);
     }
-    public void downloadAndVerifyFile(String pathUrl,String userSelect) throws IOException  {
+    public String downloadAndVerifyFile(String pathUrl,String userSelect) throws IOException  {
         URL url = new URL(pathUrl);
         BufferedImage img = ImageIO.read(url);
         File file = new File("images/"+userSelect+"_downloaded.jpg");
         ImageIO.write(img, "jpg", file);
+        return file.toString();
     }
 }
