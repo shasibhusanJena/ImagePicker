@@ -41,11 +41,14 @@
 Default Credential : username: demo, password : demo
 
 #### Install of Docker and Kubernate on windows
+
 - download Desktop Installer.exe and then follow link
   https://docs.docker.com/desktop/install/windows-install/
-- once installation is complete then setting --> Kubernates --> Enable Kubernate checkbox --> Apply and restart
+  - once installation is complete then setting --> Kubernates --> Enable Kubernate checkbox --> Apply and restart
+
 **Docker Run command** 
-   - docker build -t imagepicker:1.0 .
+
+      docker build -t imagepicker:1.0 .
 
 Docker Image named "imagepicker" uploaded on Docker App 
 
@@ -84,6 +87,11 @@ Describe Deployment details
 
     kubectl describe deployment imagepicker-deployment1
 
+Step to create Docker steps are 
+
+      docker build -t imagepicker:3.0 .
+      docker-compose up
+
 
 ================================================================================================
 
@@ -93,8 +101,6 @@ Describe Deployment details
 =============================================================================================
 
 - ![img_1.png](img_1.png)
-
-
 
 - Structure of files and resource file structure in the real project
   

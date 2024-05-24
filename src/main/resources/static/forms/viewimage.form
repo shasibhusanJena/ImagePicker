@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "text": "## Trying to fetch image..",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1jbmdrz",
+        "columns": null
+      },
+      "id": "Field_0fyquun",
+      "properties": {}
+    },
+    {
+      "content": "\n<html>\n<body>\n\n<h2>Sample Image</h2>\n<img src=\"https://www.w3schools.com/images/picture.jpg\" alt=\"Mountain\" style=\"width:300px\">\n\n</body>\n</html>",
+      "label": "HTML view",
+      "type": "html",
+      "layout": {
+        "row": "Row_1a2eeln",
+        "columns": null
+      },
+      "id": "Field_1uiohhy"
+    },
+    {
+      "content": "\n<html>\n<body>\n\n<h2>Image using \"responseImagePath\"</h2>\n<img src=\"responseImagePath\" alt=\"Mountain\" style=\"width:300px\">\n\n</body>\n</html>",
+      "label": "HTML view",
+      "type": "html",
+      "layout": {
+        "row": "Row_0cgkbqj",
+        "columns": null
+      },
+      "id": "Field_02drdbu"
+    },
+    {
+      "content": "\n<html>\n<body>\n\n<h2>Image using ${}</h2>\n<img src=\"${responseImagePath}\" alt=\"Mountain\" style=\"width:300px\">\n\n</body>\n</html>",
+      "label": "HTML view",
+      "type": "html",
+      "layout": {
+        "row": "Row_1mcid9l",
+        "columns": null
+      },
+      "id": "Field_0fzgvme"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0yeesyr",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.23.0"
+  },
+  "schemaVersion": 16
+}
