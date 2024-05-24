@@ -102,7 +102,7 @@ Some of useful commands for cleanup operation
 - ![img_1.png](img_1.png)
 
 - Structure of files and resource file structure in the real project
-
+- ![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/e66fd048-302d-47ff-8de7-833b94615306)
 
 ![img_4.png](img_4.png)
 
