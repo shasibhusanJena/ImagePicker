@@ -99,10 +99,13 @@ Some of useful commands for cleanup operation
 
 =============================================================================
 
-- ![img_1.png](img_1.png)
-
 - Structure of files and resource file structure in the real project
 
-
 ![img_4.png](img_4.png)
+
+**next steps** : todo list
+
+- Check why ${responseImagePath} not setting value back to Html form.
+- Discuss on MANIFEST.MF file template correct format and what all things we will put going forward in this.
+
 
