@@ -4,8 +4,11 @@
 ## Image Selection using Camunda + Spring Boot application.
 
 ### Project Description
-1. Create an application that will help to select a type of animal from dropdown and after selection store the image into the database.
-2. steps involved (to do list ):
+
+Create an application that will help to select a type of animal from dropdown and after selection store the image into the database.
+
+### Steps involved
+3. steps involved (to do list ):
    1. Download and Install Java and Intellij IDE. | Completed
    2. Get the Spring initializer project. | Completed 
    3. H2 or Mysql Database Setup. | Completed 
@@ -90,14 +93,14 @@ Step to create Docker steps are
       docker build -t imagepicker:3.0 .
       docker-compose up
 
-=============================================================================
+===========================================================================
 Some of useful commands for cleanup operation
 
 - Delete a deployment in Kubernetes
 - kubectl delete deployment imagepicker-deployment4
 - kubectl delete deployment --all --all-namespaces=true
 
-=============================================================================
+===========================================================================
 
 - Structure of files and resource file structure in the real project
 
