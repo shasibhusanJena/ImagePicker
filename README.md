@@ -1,10 +1,10 @@
    ![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/60aff1e9-851e-417e-8d65-4744fa53dcd4)
 
 
-# Image Selection using Camunda + Spring Boot application.
+## Image Selection using Camunda + Spring Boot application.
 
-## Project Description
-1. Create a application that will help to select a type of animal from dropdown and after selection store the image into the database.
+### Project Description
+1. Create an application that will help to select a type of animal from dropdown and after selection store the image into the database.
 2. steps involved (to do list ):
    1. Download and Install Java and Intellij IDE. | Completed
    2. Get the Spring initializer project. | Completed 
@@ -16,29 +16,27 @@
    8. create required CRUD operation methods. 
       1. Fetches the picture from an API. | Completed
       2. Stores the picture in a DB of your choice. | Completed (Storing on local file system)
-      3. Fetch and show image back in HTML using tagging.
+      3. Fetch and show image back in HTML using tagging. | Pending
    9. Add Automated testcase.
    10. Containerize your application. | Completed
    11. Add a setup to make the app run locally on every machine.
    12. Add README provide with all documentation. | Completed 
    13. Add docker file. | Completed
-   14. Add and build our project into Kubernetes cluster.
-   15. End
+   14. Add and build our project into Kubernetes cluster. | Completed
 
 **Data Flow Diagram**
 
-![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/59c278f3-a964-40e3-be45-c43b8d8773b6)
+![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/540269ab-3338-4653-a23e-1b78b185d1de)
 
 **Form Design**
 
 ![img.png](img.png)
 
-**Added View Image**
-![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/540269ab-3338-4653-a23e-1b78b185d1de)
-
 **Application login**
 
-Default Credential : username: demo, password : demo
+Default Credential : 
+   - username: demo 
+   - password : demo
 
 #### Install of Docker and Kubernate on windows
 
@@ -52,7 +50,7 @@ Default Credential : username: demo, password : demo
 
 Docker Image named "imagepicker" uploaded on Docker App 
 
-![img_3.png](img_3.png)
+![img_5.png](img_5.png)
 
 #### **Deploy application on Kubernate**
 similarly **install minikube on windows** and once installation is complete, we want docker to be executed inside minicube.
@@ -92,17 +90,19 @@ Step to create Docker steps are
       docker build -t imagepicker:3.0 .
       docker-compose up
 
-
-================================================================================================
+=============================================================================
+Some of useful commands for cleanup operation
 
 - Delete a deployment in Kubernetes
 - kubectl delete deployment imagepicker-deployment4
 - kubectl delete deployment --all --all-namespaces=true
-=============================================================================================
+
+=============================================================================
 
 - ![img_1.png](img_1.png)
 
 - Structure of files and resource file structure in the real project
-![image](https://github.com/shasibhusanJena/ImagePicker/assets/23555157/e66fd048-302d-47ff-8de7-833b94615306)
 
+
+![img_4.png](img_4.png)
 
